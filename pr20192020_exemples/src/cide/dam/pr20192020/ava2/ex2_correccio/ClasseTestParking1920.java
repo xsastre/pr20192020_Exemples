@@ -242,14 +242,16 @@ public class ClasseTestParking1920 {
 		boolean acabat=false;
 		System.out.println("Places ocupades no discapacitat: "+aparcament.getPlacesOcupades(TipusPlacesParking.No_Discapacitat));
 		try {
-			URL pathurl=ClasseTestParking1920.class.getResource("/files/matricules"); 
+			System.out.println(ClasseTestParking1920.class.getClassLoader().getResource("").getPath());
+			URL pathurl=ClasseTestParking1920.class.getResource("/src/files/matricules"); 
 			String path=pathurl.getPath();
+			System.out.println(path);
 			//aparcament.llegirMatricules("/home/xavier/git/pr20192020/pr20192020/files/matricules");
 			aparcament.llegirMatricules(path);
 		} catch (Exception e1) {
 
 			System.out.println(e1.getMessage());
-
+			System.out.println(ClasseTestParking1920.class.getClassLoader().getResource("").getPath());
 		}
 		System.out.println("Places ocupades no discapacitat: "+aparcament.getPlacesOcupades(TipusPlacesParking.No_Discapacitat));
 		if (aparcament.getPlacesOcupades(TipusPlacesParking.No_Discapacitat)==MATRICULES_FITXER) { 
