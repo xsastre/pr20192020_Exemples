@@ -1,4 +1,4 @@
-package pr20192020_exemples.streams_i_fitxers;
+package cide.dam.pr20192020_exemples.streams_i_fitxers;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
