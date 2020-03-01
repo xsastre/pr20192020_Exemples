@@ -1,4 +1,4 @@
-package pr20192020_exemples.streams_i_fitxers;
+package cide.dam.pr20192020_exemples.streams_i_fitxers;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
