@@ -160,7 +160,7 @@ public class ClasseTestParking1920 {
 				
 		}
 		
-		// Comprova matricula incorrecte
+		// Comprova matricula incorrecte/files/
 		System.out.println();
 		System.out.println("***********************************************************");
 		System.out.println("***** Comprovam matricula incorrecte                  *****");
@@ -243,7 +243,7 @@ public class ClasseTestParking1920 {
 		System.out.println("Places ocupades no discapacitat: "+aparcament.getPlacesOcupades(TipusPlacesParking.No_Discapacitat));
 		try {
 			//System.out.println(ClasseTestParking1920.class.getClassLoader().getResource("").getPath());
-			URL pathurl=ClasseTestParking1920.class.getResource("/files/matricules"); 
+			URL pathurl=ClasseTestParking1920.class.getResource("matricules"); 
 			String path=pathurl.getPath();
 			aparcament.llegirMatricules(path);
 		} catch (Exception e1) {
