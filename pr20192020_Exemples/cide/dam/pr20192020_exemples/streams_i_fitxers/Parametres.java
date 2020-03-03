@@ -4,7 +4,7 @@ public class Parametres {
 	public static void main(String[] args) {
 		System.out.println("Els parametres introduits son: ");
 		for (int i = 0; i < args.length; i++) {
-			System.out.println(args[i])
+			System.out.println(args[i]);
 		}
 	}
 }
