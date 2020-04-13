@@ -11,7 +11,7 @@
  *
  * =====================================================================================
  */
-package cide.dam.pr20192020.PR19203AU05E02;
+package cide.dam.pr20192020.PR19203AU05E02_solucio;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;

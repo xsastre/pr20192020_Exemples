@@ -11,7 +11,7 @@
  *
  * =====================================================================================
  */
-package cide.dam.pr20192020.PR19203AU05E02;
+package cide.dam.pr20192020.PR19203AU05E02_solucio;
 
 public class PR19203AU05E02Persona {
 	// Person class that represents an entry in an address book.
